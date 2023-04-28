@@ -68,7 +68,7 @@ Don't forget to change "charlist.js" and "setchar.js" insdide "Commands\Mods\"  
 
 global.charID0 = {
     botName : "Jo Bot",
-    botVideo : "https://graph.org/file/e3b2ee218b98b8679bf98.mp4",
+    botVideo : "https://telegra.ph/file/0d365cd5eb6743f4445c3.mp4",
     botImage1 : "https://i.imgur.com/VRwuTyl.jpg",
     botImage2 : "https://i.imgur.com/VRwuTyl.jpg",
     botImage3 : "https://i.imgur.com/VRwuTyl.jpg",
@@ -79,7 +79,7 @@ global.charID0 = {
 
 global.charID1 = {
     botName : "Jo Bot",
-    botVideo : "https://graph.org/file/e3b2ee218b98b8679bf98.mp4",
+    botVideo : "https://telegra.ph/file/0d365cd5eb6743f4445c3.mp4",
     botImage1 : "https://i.imgur.com/VRwuTyl.jpg",
     botImage2 : "https://i.imgur.com/VRwuTyl.jpg",
     botImage3 : "https://i.imgur.com/VRwuTyl.jpg",
