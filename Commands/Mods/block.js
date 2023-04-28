@@ -36,7 +36,7 @@ module.exports = {
           {
             text: `Successfully *Blocked* @${
               mentionedUser.split("@")[0]
-            } Senpai !`,
+            } `,
             mentions: [mentionedUser],
           },
           { quoted: m }
@@ -46,7 +46,7 @@ module.exports = {
             {
               text: `Failed to block @${
                 mentionedUser.split("@")[0]
-              } Senpai ! Maybe he is already blocked !`,
+              } Maybe he is already blocked !`,
               mentions: [mentionedUser],
             },
             { quoted: m }
@@ -59,7 +59,7 @@ module.exports = {
           {
             text: `Failed to block @${
               mentionedUser.split("@")[0]
-            } Senpai ! Maybe he is already blocked !`,
+            } Maybe he is already blocked !`,
             mentions: [mentionedUser],
           },
           { quoted: m }
