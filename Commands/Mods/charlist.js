@@ -10,26 +10,7 @@ module.exports = {
     let txt = `                  『  *Bot Charactes*  』\n\n\n_0 - Atlas MD_\n\n_1 - Power MD_\n\n_2 - Makima MD_\n\n_3 - Denji MD_\n\n_4 - Zero Two_\n\n_5 - Chika MD_\n\n_6 - Miku MD_\n\n_7 - Marin MD_\n\n_8 - Ayanokoji MD_\n\n_9 - Ruka MD_\n\n_10 - Mizuhara MD_\n\n_11 - Rem MD_\n\n_12 - Sumi MD_\n\n_13 - Kaguya MD_\n\n_14 - Yumeko MD_\n\n_15 - Kurumi MD_\n\n_16 - Mai MD_\n\n_17 - Yor MD_\n\n_18 - Shinbou MD_\n\n_19 - Eiko MD_\n\n\nUsage Example: *${prefix}setchar 11* \n`;
 
     let botLogos = [
-        'https://wallpapercave.com/wp/wp5924545.jpg',
-        'https://wallpapercave.com/wp/wp11253614.jpg',
-        'https://images5.alphacoders.com/126/1264439.jpg',
-        'https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2022/11/Chainsaw-Man-Denji-e-Power.webp?resize=1068%2C601&ssl=1',
-        'https://images3.alphacoders.com/949/949253.jpg',
-        'https://images4.alphacoders.com/100/1002134.png',
-        'https://wallpapercave.com/wp/wp10524580.jpg',
-        'https://images2.alphacoders.com/125/1257915.jpg',
-        'https://wallpapers.com/images/file/kiyotaka-ayanokoji-in-pink-qs33qgqm79ccsq7n.jpg',
-        'https://wallpapercave.com/wp/wp8228630.jpg',
-        'https://images3.alphacoders.com/128/1288059.png',
-        'https://images.alphacoders.com/711/711900.png',
-        'https://moewalls.com/wp-content/uploads/2022/07/sumi-sakurasawa-hmph-rent-a-girlfriend-thumb.jpg',
-        'https://wallpapercave.com/wp/wp6099650.png',
-        'https://wallpapercave.com/wp/wp5017991.jpg',
-        'https://wallpapercave.com/wp/wp2535489.jpg',
-        'https://images4.alphacoders.com/972/972790.jpg',
-        'https://images7.alphacoders.com/123/1236729.jpg',
-        'https://wallpapercave.com/wp/wp4650481.jpg',
-        'https://images8.alphacoders.com/122/1229829.jpg'
+        'https://i.imgur.com/VRwuTyl.jpg'
     ];
 
     let randomimage = botLogos[Math.floor(Math.random() * botLogos.length)];
