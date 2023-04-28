@@ -8,7 +8,7 @@ module.exports = {
   start: async (Miku, m, { prefix, isBotAdmin, isAdmin }) => {
     if (m.from == "120363040838753957@g.us")
       return m.reply(
-        "Sorry, this command is not allowed in *Atlas Support Group* !\n\nYou are not allowed to change support group link !"
+        "Sorry, this command is not allowed in !\n\nYou are not allowed to change support group link !"
       );
 
       if (!isAdmin && !isBotAdmin) return m.reply(`Bot and *${pushName}* both must be admin in order to use this command !`);
