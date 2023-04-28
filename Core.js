@@ -92,7 +92,7 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
       .map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net")
       .includes(m.sender);
     const isOwner = global.owner.includes(m.sender);
-    global.suppL = "https://cutt.ly/AtlasSupportStrict";
+    global.suppL = "https://wa.me/393298488837";
 
     const isCmd = body.startsWith(prefix);
     const quoted = m.quoted ? m.quoted : m;
@@ -426,7 +426,7 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
 
     const flags = args.filter((arg) => arg.startsWith("--"));
     if (body.startsWith(prefix) && !icmd) {
-      let mikutext = `No such command programmed *${pushname}* senpai! Type *${prefix}help* to get my full command list!\n`;
+      let mikutext = `No such command programmed *${pushname}* ! Type *${prefix}help* to get my full command list!\n`;
       const reactmxv = {
         react: {
           text: '❌',
