@@ -12,7 +12,7 @@ module.exports = {
             let mediaMess = await quoted.download();
             let stickerMess = new Sticker(mediaMess, {
                 pack: packname,
-                author: pushName,
+                author: author,
                 type: StickerTypes.CROPPED,
                 categories: ['🤩', '🎉'],
                 id: '12345',
