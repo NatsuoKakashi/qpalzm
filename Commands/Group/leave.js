@@ -29,8 +29,8 @@ module.exports = {
       return m.reply("Sorry, only *Group Admins* and *Mods* can use this command !");
 
     await Miku.sendMessage(m.from, {
-      image: { url: "https://wallpapercave.com/wp/wp9667218.png" },
-      caption: `I'm Leaving this group on request... \n\nTake care everyone :)`,
+      image: { url: "https://imgur.com/BszwyhG.png" },
+      caption: `I'm Leaving this group by request of my owner... \n\nciao froci :)`,
       mentions: participants.map((a) => a.id),
       quoted: m,
     }).then(async () => {
