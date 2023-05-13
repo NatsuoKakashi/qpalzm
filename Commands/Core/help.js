@@ -65,7 +65,7 @@ const now = new Date();
         } else {
           greeting = "Good evening"; //good evening
         }
-      let textHelpMenu = `${greeting} *${pushName}* Senpai,
+      let textHelpMenu = `${greeting} *${pushName}*
 
 I am *${botName}*, a bot developed by @sonoio.jo
 
