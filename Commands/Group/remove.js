@@ -3,7 +3,7 @@ require("../../Core.js");
 
 module.exports = {
   name: "remove",
-  alias: ["rem"],
+  alias: ["rem","kick","ban"],
   desc: "Remove a member from group",
   category: "Group",
   usage: "remove @user",
